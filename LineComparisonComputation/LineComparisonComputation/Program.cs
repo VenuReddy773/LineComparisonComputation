@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace LineComparisonComputation
 {
     class Program
@@ -7,6 +6,8 @@ namespace LineComparisonComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Computation Progam");
+            LineComparison lengthofLine = new LineComparison(2.5, 2, 7.5, 5.5);
+            lengthofLine.LengthCalc();
         }
     }
 }

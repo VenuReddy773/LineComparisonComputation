@@ -20,15 +20,15 @@ namespace LineComparisonComputation
         }
         public void Check(double lengthOne, double lengthTwo)
         {
-            if (lengthOne ==lengthTwo)
+            if (lengthOne.CompareTo(lengthTwo) == 0)
             {
                 Console.WriteLine("The two lines are equal");
             }
-            if (lengthOne < lengthTwo)
+            if (lengthOne.CompareTo(lengthTwo) < 0)
             {
                 Console.WriteLine("The second line is greater than first line");
             }
-            if (lengthOne > lengthTwo)
+            if (lengthOne.CompareTo(lengthTwo) > 0)
             {
                 Console.WriteLine("The first line is greater than second line");
             }
